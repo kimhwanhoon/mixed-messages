@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hahmlet', serif;
+    background-color: rgb(255, 246, 235);
+}
+.logo h1 {
+    font-family: 'Babylonica', cursive;
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding-bottom: 30px;
+    border-bottom: 2px rgba(128, 128, 128, 0.5) solid;
+    width: 80%;
+}
+
+header h2 {
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: dimgray;
+}
+
+main {
+    margin: 4% 10% 10% 10%;
+    font-size: 1.4rem;
+    line-height: 2.8;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn input {
+    border: none;
+    font-size: 1.8rem;
+    padding: 10px 150px;
+    border-radius: 12px;
+    background-color: #b2aca4;
+    color: white;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.btn input:hover{
+    background-color: #7e7a75;
+}
+
+.btn input:active{
+    background-color: #716c68;
+}
+
+.quoteContainer {
+    margin-top: 10px;
+}
